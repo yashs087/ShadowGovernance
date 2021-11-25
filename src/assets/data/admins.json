@@ -1,0 +1,14 @@
+[{
+    "adminId":1,
+    "adminName":"Ram",
+    "adminLocation":"Mumbai",
+    "adminPassword":"1234",
+    "adminProfile":"assets/profile.jpg"
+  },
+  {
+    "adminId":2,
+    "adminName":"Ram2",
+    "adminLocation":"Mumbai",
+    "adminPassword":"1234",
+    "adminProfile":"assets/profile.jpg"
+  }]

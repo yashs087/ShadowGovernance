@@ -1,0 +1,22 @@
+[
+    {
+    "id":1,
+    "name":"Raj",
+    "capgeminiId":2345687,
+    "capgeminiEmail":"raj@capgemini.com",
+    "BU":"Europe",
+    "shadowProjectName":"Governance",
+    "shadowProjectMentor":"Himanshu",
+    "taskDescription":"create a project"
+    },
+    {
+        "id":2,
+        "name":"Rajesh",
+        "capgeminiId":2345657,
+        "capgeminiEmail":"rajesh@capgemini.com",
+        "BU":"Europe",
+        "shadowProjectName":"Governance",
+        "shadowProjectMentor":"Himanshu",
+        "taskDescription":"create a project"
+        }
+]

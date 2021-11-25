@@ -1,0 +1,27 @@
+<mat-card style="background-image:linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%) ;">
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: black;font-weight: bolder;"> Admin</h1>
+     <!-- <form #userForm="ngForm"> -->
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  
+      <div class = "form-group">
+         <label style="color: rgb(47, 10, 65);"> User Name</label>
+         <input type = "text" class = "form-control" name = "reporterName" ngModel>
+      </div><br>
+
+      <div class = "form-group">
+        <label style="color: rgb(47, 10, 65);"> Location</label>
+        <input type = "text" class = "form-control" name = "reporterLocation" ngModel>
+     </div><br>
+  
+      <div class = "form-group">
+        <label style="color: black;"> Password</label>
+        <input type = "password" class = "form-control" name = "reporterPassword" ngModel>
+  
+     </div><br>
+     <div class = "form-group">
+        <label style="color: rgb(47, 10, 65);" > Profile Url</label>
+        <input type = "text" default="assets/profile.jpg" class = "form-control" name = "reporterProfile" [(ngModel)]='adminProfile'>
+     </div><br>
+     <button mat-raised-button color="primary" >Submit</button>
+           </form>
+    </mat-card>

@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg" style="background-image: linear-gradient(315deg, #000205 0%, #111011 74%);" >
+  <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;cursor: pointer;color: rgb(178, 189, 187);">Shadow Governance</div>
+  <div style="margin-left: auto;">
+  <button mat-fab [matMenuTriggerFor]="menu" style="border:0; width: 40; margin-top: 20px; background: 0%;" >
+      <img class= "rounded-circle"
+      [src]="'assets\72-729756_how-to-add-a-new-user-to-your.png'"
+      [title]="'Login'"
+      [style.width.px]=50
+      >
+
+  </button>
+
+  <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="onCreate()">Admin</button>
+      <button mat-menu-item (click)="onPress()">Reporter</button>
+  </mat-menu>
+</div>
+</nav>
+
+
+
+
+

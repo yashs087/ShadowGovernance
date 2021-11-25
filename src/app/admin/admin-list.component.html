@@ -1,0 +1,35 @@
+<mat-card >
+    <form class="example-form">
+        <mat-form-field appearance="fill" style="padding-left: 20px;">
+          <mat-label>Search</mat-label>
+          <input matInput type='text' [ngModelOptions]="{standalone: true}"  
+          [(ngModel)]='listFilter'/>
+        </mat-form-field>
+      </form>
+      <h3 *ngIf='listFilter'>
+        search results for: {{listFilter}}
+      </h3>
+      <mat-card style="margin:15px;">
+          <button  class="btn btn-primary" (click)='openAddForm()'>
+              Add Admin
+          </button>
+      </mat-card>
+    <div *ngFor ='let admin of filteredAdmins'>
+        <mat-card id = "card" style="margin:15px;">
+            <mat-card-header>
+            <div mat-card-avatar style="margin:12px;" >
+                <img mat-card-image [src]='admin.adminProfile' alt="Photo of {{admin.adminName}}"
+                style="max-width: 50px;">
+            </div>
+              <mat-card-title>{{admin.adminName}}</mat-card-title>
+              <mat-card-subtitle>{{admin.adminLocation}}</mat-card-subtitle>
+              <mat-card-actions style="margin-left: auto;" align="end">
+                <button class="btn btn-success" style="margin-left: 40px;"(click)='updateAdmin(admin.id)'>Edit</button>
+                <button class="btn btn-danger" style="margin-left: 40px;" (click)='deleteAdmin(admin.id)'>Delete</button>
+              </mat-card-actions>
+            </mat-card-header>
+
+          </mat-card>
+    </div>
+</mat-card>
+

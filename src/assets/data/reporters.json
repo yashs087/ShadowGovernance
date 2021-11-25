@@ -1,0 +1,36 @@
+[{
+    "reporterId":1,
+    "reporterName":"Ram",
+    "reporterLocation":"Mumbai",
+    "reporterPassword":"1234",
+    "reporterProfile":"assets/profile.jpg"
+  },
+  {
+    "reporterId":2,
+    "reporterName":"Ram2",
+    "reporterLocation":"Mumbai",
+    "reporterPassword":"1234",
+    "reporterProfile":"assets/profile.jpg"
+  },
+  {
+    "reporterId":3,
+    "reporterName":"Ram3",
+    "reporterLocation":"Mumbai",
+    "reporterPassword":"1234",
+    "reporterProfile":"assets/profile.jpg"
+  },
+  {
+    "reporterId":4,
+    "reporterName":"Ram4",
+    "reporterLocation":"Mumbai",
+    "reporterPassword":"1234",
+    "reporterProfile":"assets/profile.jpg"
+  },
+  {
+    "reporterId":5,
+    "reporterName":"Ram5",
+    "reporterLocation":"Mumbai",
+    "reporterPassword":"1234",
+    "reporterProfile":"assets/profile.jpg"
+  }]
+    

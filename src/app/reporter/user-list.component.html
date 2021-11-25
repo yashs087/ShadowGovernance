@@ -1,0 +1,55 @@
+<mat-card>
+  <mat-card style="margin: bottom 30px; ">
+    <form class="example-form">
+      <!-- <mat-form-field class="example-full-width" appearance="fill" style="padding-left: 20px;">
+        <mat-label>Search</mat-label>
+        <input matInput   [ngModelOptions]="{standalone: true}"
+        [(ngModel)]='listFilter'>
+      </mat-form-field> -->
+    </form>
+    <div class = "form-group" style="padding-left: 20px;">
+      <label style="color: black;">BU</label><br>
+     <select class = "custom-select"  [ngModelOptions]="{standalone: true}"  [(ngModel)]='buListFilter' >
+       <option *ngFor = "let topic of topics be">{{topic}}</option>
+     </select>
+  </div><br>
+
+  <div class = "form-group" style="padding-left: 20px;">
+    <label style="color: black;">Task Description</label><br>
+    <select class = "custom-select" [ngModelOptions]="{standalone: true}" [(ngModel)]='descListFilter' >
+      <option *ngFor = "let description of descriptions be">{{description}}</option>
+    </select>
+ </div><br>
+    <h3 *ngIf='listFilter'>
+      search results for: {{listFilter}} 
+
+    </h3>
+      <button class="btn btn-warning" (click)='resetFilter()'>
+        Reset Filter
+    </button>
+  </mat-card>
+        <mat-card style="margin-left:auto; ">
+            <!-- <button (click)="addUsers()"> -->
+              <button class="btn btn-success" (click)='exportExcel()'>
+                Download
+            </button>
+        </mat-card>
+      <div  class="container" *ngFor ='let user of filteredUser'>
+          <mat-card style="margin:15px;">
+              <mat-card-header>
+              <div mat-card-avatar style="margin:12px;" >
+                  <img mat-card-image [src]="'assets/profile.jpg'" alt="Photo of {{user.name}}"
+                  style="max-width: 50px;">
+              </div>
+                <mat-card-title>{{user.name}}</mat-card-title>
+                <mat-card-subtitle>{{user.BU}}</mat-card-subtitle>
+                <mat-card-actions style="margin-left: auto;" align="end">
+                  <button mat-button style="margin-left: 40px;" class="btn btn-success">Edit</button>
+                  <button mat-button style="margin-left: 40px;" class="btn btn-danger">Delete</button>
+                </mat-card-actions>
+              </mat-card-header>
+  
+            </mat-card>
+      </div>
+  </mat-card>
+  

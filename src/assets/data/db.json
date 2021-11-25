@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "name": "Raj",
+      "id": 2,
+      "capgeminiEmail": "raj@capgemini.com",
+      "BU": "Europe",
+      "shadowProjectName": "Governance",
+      "shadowProjectMentor": "Himanshu",
+      "taskDescription": "create a project"
+    },
+    {
+      "name": "Rajesh",
+      "id": 3,
+      "capgeminiEmail": "rajesh@capgemini.com",
+      "BU": "Europe",
+      "shadowProjectName": "Governance",
+      "shadowProjectMentor": "Himanshu",
+      "taskDescription": "create a project"
+    },
+    {
+      "id": 1,
+      "name": "abhishk",
+      "capgeminiEmail": "hj@cg.com",
+      "BU": "EU",
+      "shadowProjectName": "game",
+      "shadowProjectMentor": "ramesh",
+      "taskDescription": "mast"
+    },
+    {
+      "id": 4,
+      "name": "gargi",
+      "capgeminiEmail": "hj@cg.com",
+      "BU": "EU",
+      "shadowProjectName": "game",
+      "shadowProjectMentor": "ramesh",
+      "taskDescription": "mast"
+    },
+    {
+      "name": "kishan",
+      "CapgeminiEmail": "asfd",
+      "BU": "Mumbai",
+      "shadowProjectName": "dsfsdaf",
+      "shadwProjectMentor": "sdaf",
+      "taskDescription": "Creating documentation",
+      "id": 7
+    },
+    {
+      "name": "Yogesh Dixit",
+      "CapgeminiEmail": "yogesh@capgemini.com",
+      "BU": "Mumbai",
+      "shadowProjectName": "shadow governance",
+      "shadwProjectMentor": "Amit",
+      "taskDescription": "Observing the Development Process",
+      "Information": true,
+      "id": 8
+    },
+    {
+      "name": "Chirag",
+      "CapgeminiEmail": "chirag@capgemini.com",
+      "BU": "Mumbai",
+      "shadowProjectName": "databse",
+      "shadwProjectMentor": "Kartik",
+      "taskDescription": "Observing the Development Process",
+      "Information": true,
+      "id": 9
+    },
+    {
+      "id": "10",
+      "name": "Rishabh",
+      "CapgeminiEmail": "raishabh@capgemini.com",
+      "BU": "Europe",
+      "shadowProjectName": "SAP",
+      "shadwProjectMentor": "Balyan",
+      "taskDescription": "Review of code which was already written",
+      "Information": true
+    },
+    {
+      "id": "11",
+      "name": "Rakesh",
+      "CapgeminiEmail": "rakesh@capgemini.com",
+      "BU": "Europe",
+      "shadowProjectName": "shadow governance",
+      "shadwProjectMentor": "Amit",
+      "taskDescription": "Observing the Development Process",
+      "Information": true
+    },
+    {
+      "id": "as",
+      "name": "Yogesh Dixit",
+      "CapgeminiEmail": "terminated@capg.com",
+      "BU": "Mumbai",
+      "shadowProjectName": "shadow governance",
+      "shadwProjectMentor": "rahul",
+      "taskDescription": "Observing the Development Process",
+      "Information": true
+    }
+  ],
+  "reporters": [
+    {
+      "id": 1,
+      "reporterName": "Ram",
+      "reporterLocation": "Mumbai",
+      "reporterPassword": "1234",
+      "reporterProfile": "assets/profile.jpg"
+    },
+    {
+      "id": 2,
+      "reporterName": "Ram2",
+      "reporterLocation": "Mumbai",
+      "reporterPassword": "1234",
+      "reporterProfile": "assets/profile.jpg"
+    },
+    {
+      "id": 3,
+      "reporterName": "Ram3",
+      "reporterLocation": "Mumbai",
+      "reporterPassword": "1234",
+      "reporterProfile": "assets/profile.jpg"
+    },
+    {
+      "id": 4,
+      "reporterName": "Ram4",
+      "reporterLocation": "Mumbai",
+      "reporterPassword": "1234",
+      "reporterProfile": "assets/profile.jpg"
+    },
+    {
+      "id": 5,
+      "reporterName": "Ram5",
+      "reporterLocation": "Mumbai",
+      "reporterPassword": "1234",
+      "reporterProfile": "assets/profile.jpg"
+    },
+    {
+      "reporterName": "lakshya",
+      "reporterLocation": "pune",
+      "reporterPassword": "1234",
+      "reporterProfile": "assets/profile.jpg",
+      "id": 6
+    }
+  ],
+  "admins": [
+    {
+      "adminName": "jeetu",
+      "adminLocation": "goa",
+      "adminPassword": "1234",
+      "adminProfile": "assets/profile.jpg",
+      "id": 3
+    },
+    {
+      "adminName": "Abhijeet",
+      "adminLocation": "kolkata",
+      "adminPassword": "1234",
+      "adminProfile": "assets/profile.jpg",
+      "id": 4
+    },
+    {
+      "adminName": "Abhinav",
+      "adminLocation": "Mumbai",
+      "adminPassword": "1234",
+      "adminProfile": "assets/profile.jpg",
+      "id": 5
+    }
+  ]
+}
